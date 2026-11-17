@@ -1,0 +1,2 @@
+/* Only the Pulse sidebar menu icon, on every WordPress admin screen. */
+#adminmenu #toplevel_page_pulse .wp-menu-image img{display:block;width:20px!important;height:20px!important;max-width:20px;max-height:20px;object-fit:contain;padding:0!important;margin:7px auto 0;opacity:1}

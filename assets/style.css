@@ -1,0 +1,19 @@
+.ro-socialbed-group{width:100%;margin:1.5rem auto;clear:both}.ro-socialbed-group .ro-socialbed-card{display:block;width:100%;max-width:550px;min-width:0;margin:0 auto 2rem!important;padding:0;border:0;background:transparent;text-align:center;float:none}.ro-socialbed-embed{width:100%;min-width:0}.ro-socialbed-embed>*,.ro-socialbed-embed iframe,.ro-socialbed-embed blockquote{margin-left:auto!important;margin-right:auto!important;max-width:100%!important;box-sizing:border-box}.ro-socialbed-embed blockquote{text-align:left}.ro-socialbed-embed iframe{display:block;border:0}.ro-socialbed-facebook{width:100%;height:680px}.ro-socialbed-source{display:block;text-align:center;font-size:.8em;line-height:1.5;margin:.65rem 0 0;overflow-wrap:anywhere}.ro-socialbed-source a{text-decoration:underline;text-underline-offset:3px}
+.ro-socialbed-group .ro-socialbed-card{max-width:var(--rop-width,550px);margin-bottom:var(--rop-gap,32px)!important}.ro-socialbed-group.rop-align-left .ro-socialbed-card{margin-left:0!important;margin-right:auto!important}.ro-socialbed-group.rop-align-right .ro-socialbed-card{margin-left:auto!important;margin-right:0!important}
+/* RO-Pulse: neutral outer layout; provider branding remains inside official embeds. */
+.ro-socialbed-group .rop-frame{width:100%;border:0;border-radius:12px;background:transparent}
+.ro-socialbed-group .rop-youtube{aspect-ratio:16/9;height:auto;min-height:200px}
+.ro-socialbed-group .rop-tiktok{width:100%;max-width:395px!important;aspect-ratio:9/16;height:auto;min-height:578px}
+.ro-socialbed-group .rop-linkedin{height:600px}.ro-socialbed-group .rop-mastodon{height:450px}
+.ro-socialbed-group .substack-post-embed{margin:0 auto;max-width:100%}
+.ro-socialbed-group .instagram-media{min-width:0!important;width:100%!important}
+.ro-socialbed-group .rop-telegram{text-align:center}
+.rop-link-card{display:block;box-sizing:border-box;border:1px solid #e1e6eb;border-radius:16px;padding:20px 24px;text-align:left;background:#fff;color:#122536;text-decoration:none;overflow-wrap:anywhere}
+.rop-link-card:hover{border-color:#a3b6c4;background:#fafcfd}.rop-link-platform,.rop-link-title{display:block}.rop-link-platform{font-size:12px;color:#657480;letter-spacing:.03em}.rop-link-title{margin-top:6px;font-size:16px;font-weight:600}
+.rop-link-card[hidden]{display:none!important}.rop-instagram-host{width:100%;min-width:0}.rop-instagram-host>blockquote.instagram-media{border:0;padding:0;background:transparent;max-width:100%;min-width:0}.rop-instagram-host iframe{display:block;margin:0 auto!important;max-width:100%!important}
+/* RO-Pulse never displays its own source buttons or provider placeholder links. */
+.rop-provider-placeholder[hidden],.ro-socialbed-card[hidden],.ro-socialbed-embed [hidden]{display:none!important}
+/* Hide legacy plugin source cards too, if cached markup is still present. */
+.ro-socialbed-group .rop-link-card,.ro-socialbed-group .ro-socialbed-source{display:none!important}
+/* Hide only theme/plugin-added source links, never links inside provider iframes. */
+.health-tweets a.health-social-source,.health-social-item>a.health-social-source{display:none!important}
